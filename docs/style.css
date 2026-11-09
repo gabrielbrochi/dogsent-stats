@@ -2,16 +2,16 @@
    pódio do top 3, depois placar estilo scoreboard. Escuro por padrão (cor do escudo), tema claro opcional.
    Amarelo do triângulo = destaque; vermelho dos olhos só para derrota / bagre. */
 :root {
-  --bg: #0f1717;
-  --surface: #172222;
-  --surface-2: #213030;
-  --fg: #eef1ef;
-  --muted: #93a09d;
-  --line: #2a3b3b;
+  --bg: #000000;
+  --surface: #121212;
+  --surface-2: #1e1e1e;
+  --fg: #f2f2f2;
+  --muted: #9a9a9a;
+  --line: #2a2a2a;
   --yellow: #ffcc25;
   --orange: #f29a1f;
   --accent-ink: #ffcc25;   /* amarelo usado como texto */
-  --on-yellow: #141e1f;
+  --on-yellow: #0a0a0a;
   --dog: #928a85;
   --win: #5ed08f;
   --loss: #ff4d63;
@@ -23,12 +23,12 @@
 }
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) {
-    --bg: #edf1ef; --surface: #ffffff; --surface-2: #e2e8e6; --fg: #141e1f; --muted: #56625f; --line: #cfd8d5;
+    --bg: #efefef; --surface: #ffffff; --surface-2: #e4e4e4; --fg: #111111; --muted: #5c5c5c; --line: #d4d4d4;
     --accent-ink: #8a5f00; --dog: #6f6863; --win: #17834a; --loss: #d0263f; --ct: #2a6fb5; color-scheme: light;
   }
 }
 :root[data-theme="light"] {
-  --bg: #edf1ef; --surface: #ffffff; --surface-2: #e2e8e6; --fg: #141e1f; --muted: #56625f; --line: #cfd8d5;
+  --bg: #efefef; --surface: #ffffff; --surface-2: #e4e4e4; --fg: #111111; --muted: #5c5c5c; --line: #d4d4d4;
   --accent-ink: #8a5f00; --dog: #6f6863; --win: #17834a; --loss: #d0263f; --ct: #2a6fb5; color-scheme: light;
 }
 
@@ -36,7 +36,7 @@
 body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--body); -webkit-text-size-adjust: 100%; }
 body::before {
   content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
-  z-index: 10; background: #141e1f;
+  z-index: 10; background: #000000;
 }
 .wrap {
   max-width: 980px; margin: 0 auto;
@@ -45,24 +45,24 @@ body::before {
 }
 
 /* ---------- Cabeçalho: sempre na cor do escudo, nos dois temas ---------- */
-header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: #141e1f; color: #eef1ef; }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: #000000; color: #f2f2f2; }
 .top-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 10px 2px; }
 .brand { display: flex; align-items: center; gap: 10px; margin: 0; text-decoration: none; color: inherit; min-width: 0; }
 .brand img { width: 46px; height: auto; flex: none; filter: drop-shadow(0 2px 0 rgb(0 0 0 / 0.4)); }
 .brand b { font: 400 24px/1 var(--display); letter-spacing: 0.01em; white-space: nowrap; }
 .brand b span { color: #ffcc25; }
-.updated { font-size: 12px; color: #93a09d; text-align: right; }
+.updated { font-size: 12px; color: #9a9a9a; text-align: right; }
 nav.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
 nav.tabs::-webkit-scrollbar { display: none; }
 nav.tabs a {
   font: 700 16px/1 var(--cond); text-transform: uppercase; letter-spacing: 0.06em;
-  color: #93a09d; text-decoration: none; padding: 10px 12px 11px; border-bottom: 3px solid transparent; white-space: nowrap;
+  color: #9a9a9a; text-decoration: none; padding: 10px 12px 11px; border-bottom: 3px solid transparent; white-space: nowrap;
 }
-nav.tabs a:hover { color: #eef1ef; }
+nav.tabs a:hover { color: #f2f2f2; }
 nav.tabs a[aria-current="page"] { color: #ffcc25; border-bottom-color: #ffcc25; }
 .hazard {
   height: 8px;
-  background: repeating-linear-gradient(-45deg, #ffcc25 0 12px, #141e1f 12px 24px);
+  background: repeating-linear-gradient(-45deg, #ffcc25 0 12px, #000000 12px 24px);
 }
 a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--yellow); outline-offset: 2px; }
 
