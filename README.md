@@ -1,6 +1,6 @@
-# CS Hub
+# DOGSENT.gg Stats
 
-Hub de estatísticas de CS2 da galera: ranking, partidas, perfis e duelo, com partidas da Gamers Club, FACEIT e Premier puxadas do Leetify.
+Hub de estatísticas de CS2 da matilha DOGSENT: ranking, partidas, perfis e duelo, com partidas da Gamers Club, FACEIT e Premier puxadas do Leetify.
 
 ## Como funciona
 

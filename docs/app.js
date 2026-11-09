@@ -1,4 +1,4 @@
-// DOGSENT.gg: lê data/hub.json e monta a matilha (ranking), partidas, perfis e mano a mano.
+// DOGSENT.gg Stats: lê data/hub.json e monta a matilha (ranking), partidas, perfis e mano a mano.
 (() => {
   const SRC_LABEL = { gc: "GC", premier: "Premier", faceit: "FACEIT", competitive: "Competitivo", wingman: "Wingman", outro: "Outro" };
   const PERIODS = [["7", "7 dias"], ["30", "30 dias"], ["90", "90 dias"], ["all", "Sempre"]];

@@ -51,6 +51,10 @@ header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; b
 .brand img { width: 46px; height: auto; flex: none; filter: drop-shadow(0 2px 0 rgb(0 0 0 / 0.4)); }
 .brand b { font: 400 24px/1 var(--display); letter-spacing: 0.01em; white-space: nowrap; }
 .brand b span { color: #ffcc25; }
+.brand i {
+  font: 700 13px/1 var(--cond); font-style: normal; text-transform: uppercase; letter-spacing: 0.08em;
+  background: #ffcc25; color: #0a0a0a; padding: 4px 7px 3px; border-radius: 4px; flex: none;
+}
 .updated { font-size: 12px; color: #9a9a9a; text-align: right; }
 nav.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
 nav.tabs::-webkit-scrollbar { display: none; }
