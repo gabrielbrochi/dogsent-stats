@@ -45,5 +45,6 @@ jobs:
             echo "Nada novo."
           else
             git commit -m "Dados atualizados $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase -X theirs origin main || true
             git push
           fi
