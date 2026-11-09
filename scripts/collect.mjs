@@ -57,16 +57,21 @@ async function readJson(file, fallback) {
 const writeJson = (file, data, pretty = true) =>
   writeFile(file, JSON.stringify(data, null, pretty ? 2 : 0) + "\n");
 
-// Leetify só diz "matchmaking"; o rank_type da lista do perfil separa Premier de competitivo.
+// O Leetify usa "matchmaking" (Premier ou competitivo, separados pelo rank_type) e às vezes
+// "matchmaking_competitive" / "matchmaking_wingman". Tudo vira um nome curto para o site.
 function classifySource(dataSource, rankType) {
-  if (dataSource === "gamers_club") return "gc";
-  if (dataSource === "faceit") return "faceit";
-  if (dataSource === "matchmaking") {
+  const s = String(dataSource || "");
+  if (s === "gamers_club" || s === "gc") return "gc";
+  if (s === "faceit") return "faceit";
+  if (s === "premier" || s === "matchmaking_premier") return "premier";
+  if (s === "competitive" || s === "matchmaking_competitive") return "competitive";
+  if (s === "wingman" || s === "matchmaking_wingman") return "wingman";
+  if (s === "matchmaking") {
     if (rankType === 11) return "premier";
     if (rankType === 7) return "wingman";
     return "competitive";
   }
-  return dataSource || "outro";
+  return s || "outro";
 }
 
 // Aceita steam64 direto, link /profiles/<id> ou link /id/<apelido>. Guarda o resultado em cache.
@@ -145,7 +150,7 @@ async function main() {
       const detail = await api(`/v2/matches/${m.id}`);
       if (!detail) continue;
       detail._hub = {
-        source: classifySource(detail.data_source || m.data_source, m.rank_type),
+        source: classifySource(m.data_source || detail.data_source, m.rank_type),
         rank_type: m.rank_type ?? null,
         collected_at: new Date().toISOString(),
       };
@@ -190,7 +195,7 @@ export async function buildHub(players) {
     matches.push({
       id: d.id,
       t: d.finished_at,
-      src: d._hub?.source || classifySource(d.data_source, null),
+      src: classifySource(d._hub?.source || d.data_source, d._hub?.rank_type ?? null),
       map: d.map_name,
       ban: d.has_banned_player || false,
       p: ours.map((s) => {
