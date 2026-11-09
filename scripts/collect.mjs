@@ -167,7 +167,7 @@ async function main() {
 
 // Gera o arquivo único e compacto que o site lê.
 export async function buildHub(players) {
-  players ??= await readJson(path.join(ROOT, "players.json"), []);
+  players ??= await resolvePlayers(await readJson(path.join(ROOT, "players.json"), []));
   const tracked = new Map(players.map((p) => [p.steam64, p]));
 
   const hubPlayers = [];
