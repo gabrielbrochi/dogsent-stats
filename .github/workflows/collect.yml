@@ -5,6 +5,13 @@ on:
     # A cada 3 horas (horário UTC)
     - cron: "17 */3 * * *"
   workflow_dispatch: {}
+  # Roda também quando a lista de jogadores ou o coletor mudam
+  push:
+    branches: [main]
+    paths:
+      - players.json
+      - scripts/**
+      - .github/workflows/collect.yml
 
 permissions:
   contents: write
