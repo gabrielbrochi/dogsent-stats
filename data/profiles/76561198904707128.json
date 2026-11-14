@@ -609,7 +609,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 0,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": -0.0923,
       "score": [
@@ -666,7 +665,6 @@
       "data_source": "gamers_club",
       "outcome": "win",
       "rank": 0,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": -0.0155,
       "score": [
@@ -685,7 +683,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 0,
-      "rank_type": null,
       "map_name": "de_inferno",
       "leetify_rating": -0.0476,
       "score": [
