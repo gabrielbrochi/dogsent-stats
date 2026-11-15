@@ -1,14 +1,14 @@
 {
   "privacy_mode": "public",
-  "winrate": 0.6667,
-  "total_matches": 1876,
+  "winrate": 0.6333,
+  "total_matches": 1878,
   "first_match_date": "2021-01-02T00:00:14.000Z",
   "name": "⑳ ✓ ☆ broqi",
   "bans": [],
   "steam64_id": "76561198306330610",
   "id": "fb8478cb-603a-4167-9485-69b6dea06144",
   "ranks": {
-    "leetify": 7.53,
+    "leetify": 7.91,
     "premier": 25509,
     "faceit": 10,
     "faceit_elo": null,
@@ -54,38 +54,76 @@
     ]
   },
   "rating": {
-    "aim": 91.3085,
-    "positioning": 82.6391,
-    "utility": 56.7962,
-    "clutch": 0.1362,
-    "opening": 0.0593,
-    "ct_leetify": 0.0735,
-    "t_leetify": 0.0772
+    "aim": 90.9877,
+    "positioning": 81.3267,
+    "utility": 58.9893,
+    "clutch": 0.1545,
+    "opening": 0.0526,
+    "ct_leetify": 0.0776,
+    "t_leetify": 0.0808
   },
   "stats": {
-    "accuracy_enemy_spotted": 40.618,
-    "accuracy_head": 22.4463,
-    "counter_strafing_good_shots_ratio": 73.2987,
-    "ct_opening_aggression_success_rate": 82.9356,
-    "ct_opening_duel_success_percentage": 69.1427,
-    "flashbang_hit_foe_avg_duration": 2.7142,
-    "flashbang_hit_foe_per_flashbang": 0.5998,
-    "flashbang_hit_friend_per_flashbang": 0.2064,
-    "flashbang_leading_to_kill": 7.7654,
-    "flashbang_thrown": 4.5054,
-    "he_foes_damage_avg": 10.3813,
-    "he_friends_damage_avg": 0.6383,
-    "preaim": 8.5344,
-    "reaction_time_ms": 447.9815,
-    "spray_accuracy": 43.4794,
-    "t_opening_aggression_success_rate": 56.2404,
-    "t_opening_duel_success_percentage": 50.5704,
-    "traded_deaths_success_percentage": 45.1222,
-    "trade_kill_opportunities_per_round": 0.3544,
-    "trade_kills_success_percentage": 62.8346,
-    "utility_on_death_avg": 418.6256
+    "accuracy_enemy_spotted": 40.8141,
+    "accuracy_head": 22.0817,
+    "counter_strafing_good_shots_ratio": 72.361,
+    "ct_opening_aggression_success_rate": 83.8849,
+    "ct_opening_duel_success_percentage": 69.0492,
+    "flashbang_hit_foe_avg_duration": 2.7686,
+    "flashbang_hit_foe_per_flashbang": 0.6429,
+    "flashbang_hit_friend_per_flashbang": 0.2095,
+    "flashbang_leading_to_kill": 8.0867,
+    "flashbang_thrown": 4.7262,
+    "he_foes_damage_avg": 10.7832,
+    "he_friends_damage_avg": 0.6235,
+    "preaim": 8.3106,
+    "reaction_time_ms": 448.9508,
+    "spray_accuracy": 42.8258,
+    "t_opening_aggression_success_rate": 53.3846,
+    "t_opening_duel_success_percentage": 47.7234,
+    "traded_deaths_success_percentage": 43.2887,
+    "trade_kill_opportunities_per_round": 0.3508,
+    "trade_kills_success_percentage": 63.3385,
+    "utility_on_death_avg": 411.2785
   },
   "recent_matches": [
+    {
+      "id": "1636de6f-304f-4b70-ab1d-050399e7c62d",
+      "finished_at": "2026-11-15T22:18:15.362Z",
+      "data_source": "gamers_club",
+      "outcome": "loss",
+      "rank": 19,
+      "rank_type": null,
+      "map_name": "de_vertigo",
+      "leetify_rating": 0.0637,
+      "score": [
+        7,
+        13
+      ],
+      "preaim": 8.4,
+      "reaction_time_ms": 469,
+      "accuracy_enemy_spotted": 40.12,
+      "accuracy_head": 10.77,
+      "spray_accuracy": 42.59
+    },
+    {
+      "id": "28e6999a-6bb1-42f4-860e-577397d28766",
+      "finished_at": "2026-11-15T21:36:39.286Z",
+      "data_source": "gamers_club",
+      "outcome": "win",
+      "rank": 19,
+      "rank_type": null,
+      "map_name": "de_mirage",
+      "leetify_rating": -0.005,
+      "score": [
+        13,
+        7
+      ],
+      "preaim": 4.32,
+      "reaction_time_ms": 445,
+      "accuracy_enemy_spotted": 37.27,
+      "accuracy_head": 17.14,
+      "spray_accuracy": 24.24
+    },
     {
       "id": "a01c721f-3844-4583-a99b-477fed7c43ae",
       "finished_at": "2026-11-11T03:25:39.475Z",
@@ -1947,54 +1985,20 @@
       "accuracy_enemy_spotted": 44.68,
       "accuracy_head": 39.29,
       "spray_accuracy": 43.75
-    },
-    {
-      "id": "f8ad6394-128a-4ad4-a1bb-d1c0f108bf51",
-      "finished_at": "2026-08-14T16:55:21.000Z",
-      "data_source": "matchmaking",
-      "outcome": "win",
-      "rank": 23546,
-      "rank_type": 11,
-      "map_name": "de_cache",
-      "leetify_rating": 0.091,
-      "score": [
-        13,
-        10
-      ],
-      "preaim": 8.41,
-      "reaction_time_ms": 453,
-      "accuracy_enemy_spotted": 45.93,
-      "accuracy_head": 21.57,
-      "spray_accuracy": 60
-    },
-    {
-      "id": "b1fbfdbe-50df-48e1-a873-0a2d08094dca",
-      "finished_at": "2026-08-14T16:21:57.000Z",
-      "data_source": "matchmaking",
-      "outcome": "win",
-      "rank": 23090,
-      "rank_type": 11,
-      "map_name": "de_mirage",
-      "leetify_rating": 0.1548,
-      "score": [
-        13,
-        3
-      ],
-      "preaim": 13.55,
-      "reaction_time_ms": 547,
-      "accuracy_enemy_spotted": 38.06,
-      "accuracy_head": 22.03,
-      "spray_accuracy": 36.96
     }
   ],
   "recent_teammates": [
     {
-      "steam64_id": "76561198077559246",
-      "recent_matches_count": 44
+      "steam64_id": "76561198207113507",
+      "recent_matches_count": 28
     },
     {
-      "steam64_id": "76561198207113507",
-      "recent_matches_count": 26
+      "steam64_id": "76561198353333016",
+      "recent_matches_count": 31
+    },
+    {
+      "steam64_id": "76561198077559246",
+      "recent_matches_count": 42
     },
     {
       "steam64_id": "76561198437444723",
@@ -2005,20 +2009,16 @@
       "recent_matches_count": 12
     },
     {
-      "steam64_id": "76561198353333016",
-      "recent_matches_count": 29
-    },
-    {
       "steam64_id": "76561198077507159",
       "recent_matches_count": 18
     },
     {
       "steam64_id": "76561198453992619",
-      "recent_matches_count": 39
+      "recent_matches_count": 38
     },
     {
       "steam64_id": "76561198074957298",
-      "recent_matches_count": 30
+      "recent_matches_count": 28
     },
     {
       "steam64_id": "76561199079947549",
@@ -2026,7 +2026,7 @@
     },
     {
       "steam64_id": "76561198904707128",
-      "recent_matches_count": 24
+      "recent_matches_count": 22
     }
   ]
 }
