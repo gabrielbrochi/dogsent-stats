@@ -114,7 +114,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_dust2",
       "leetify_rating": -0.023,
       "score": [
@@ -133,7 +132,6 @@
       "data_source": "gamers_club",
       "outcome": "win",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": -0.0321,
       "score": [
@@ -152,7 +150,6 @@
       "data_source": "gamers_club",
       "outcome": "win",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": 0,
       "score": [
@@ -380,7 +377,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": -0.0534,
       "score": [
@@ -399,7 +395,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": -0.0654,
       "score": [
@@ -1045,7 +1040,6 @@
       "data_source": "gamers_club",
       "outcome": "win",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": -0.0703,
       "score": [
@@ -1273,7 +1267,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": 0.0413,
       "score": [
@@ -1292,7 +1285,6 @@
       "data_source": "gamers_club",
       "outcome": "win",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": 0.0443,
       "score": [
@@ -1311,7 +1303,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_nuke",
       "leetify_rating": -0.0144,
       "score": [
@@ -1368,7 +1359,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_nuke",
       "leetify_rating": -0.0565,
       "score": [
@@ -1387,7 +1377,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_mirage",
       "leetify_rating": -0.0492,
       "score": [
@@ -1406,7 +1395,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_inferno",
       "leetify_rating": -0.0063,
       "score": [
@@ -1425,7 +1413,6 @@
       "data_source": "gamers_club",
       "outcome": "loss",
       "rank": 11,
-      "rank_type": null,
       "map_name": "de_ancient",
       "leetify_rating": -0.0502,
       "score": [
